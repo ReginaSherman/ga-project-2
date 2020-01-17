@@ -3,123 +3,131 @@
 
 Let's kick it up a notch and build a modular and modern front end application using React!
 
-Like with project one, the Unit 2 project is a chance to be creative and build something you should be proud of. You will be working individually for this project, but we'll be guiding you along the process and helping as you go. 
+Like with project one, the Unit 2 project is a chance to build a project that you can share with  future prospective employers to demonstrate your skills and evolution as a software engineer. You will be working individually for this project, but we will offer office hours and support via the issue queue throughout the project.
 
-You must submit your idea to your squad leader by noon EST Monday.
-
-Show us what you've got!
+For this project, you **must** submit your idea to your squad leader by noon EST Friday.
 
 ## Requirements
 
-#### Your website must:
-- Be a working, interactive, React application.
-- Include data from a third-party API.
-    - Pull data into the application using an API  
-        [List of Public APIs](https://github.com/toddmotto/public-apis)  
-        [More APIs](https://github.com/abhishekbanthia/Public-APIs)  
-	[Instructor Recommended APIs](https://git.generalassemb.ly/sei-nyc-pirates/apis)
-    - TRY OUT your API in the browser by making an fetch request before you get too emotionally invested in it, to make sure it works the way you think it does...**YOU ARE REQUIRED TO SHOW US YOU CAN RECEIVE THE DATA FOR YOUR PROPOSAL**
-- Use React Router.
-- Have at least 6 separate components, using a readable file structure.
-- Be built using Create React App.
-- Be styled with CSS.
-- Use Flexbox or CSS Grid for layouts.
-- Use functional components and class components appropriately.
-- Be deployed via [Netlify](https://www.netlify.com/).
+We'll be evaluating your projects against the following criteria.  Hard requirements are denoted with the terms **must** or **must not**.  Optional requirements use the term **may**.
 
-- **Optionally, you may incorporate a component library to design your app with approval, or use Next.js or Gatsby instead of React Router and Create React App**
+#### Your app must:
+- [ ] **Be a working, interactive, React application.**
+  - [ ] It must only use React for DOM manipulation.
+  - [ ] It must not produce errors or console logs when used.
+  - [ ] It must not display any non-functional actions (e.g., buttons or links that do not work).
+  - [ ] It must not dependent upon or cause the page to refresh (it must be a SPA).
+  - [ ] It must include at least two interactive features (e.g., the user can switch views to see more detail is one example).
+  - [ ] It must not contain any JavaScript alerts.
+  - [ ] It must be properly indented and written with semantic, camelCase JavaScript and JSX.
+  - [ ] It must be free from extraneous `create-react-app` files or code.  Specifically, you must remove the preloaded logo.svg and unused App.css style declarations.
+- [ ] **Include data from a third-party API.**
+  - [ ] It must contain at least one request to an API
+  - [ ] You must use an environment variable to store any API keys if keys are required to make requests to the API you choose.  (We will review this process with you.)
+  - [ ] Your API requests **must be made over https**.  Not all APIs support https (most do), but make sure that the API you use has a url that begins with **`https://` not `http://`**.
+  - [ ] Each request must handle errors by displaying a message to the user and must not log the error to the console.
+  - [ ] The data returned from the API must be used in the application.
+- [ ] **Use React Router.**
+    - [ ] It must use React Router for navigation.
+    - [ ] It must not depend soley on the browser's navigation buttons.
+- [ ] **Have at least 4 separate components.**
+  - [ ] It must use stateless and stateful components appropriately.
+  - [ ]  It may use class-based components or hooks for stateful components.
+- [ ] **Be deployed to the Web.**
+  - [ ] It must be accessible as an application on the Web (_see_ details below for how to deploy React applications).
+  - [ ] It must separately have a public **GitHub** repository containing your code.
+  - [ ] You must not commit your API keys to Github. (We will review this process with you.)
+- [ ] **Use Flexbox or CSS Grid for layouts.**
+  - [ ] It must not use floats for layout or depend solely upon positioning elements with fixed or absolute position.
+  - [ ] It may incorporate a component library or styling framework.
+- [ ] **Be adequately documented on Github.**
+  - [ ] Your Github repository must contain a brief description and link to the deployed application in the "website" section at the top of the Code tab.
+  - [ ] Your Github repository must contain a README.md file for documentation that is properly formatted using [Github flavored markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
+  - [ ] Your Github repository  README.md must include the following sections:
+    - [ ] **Description:** Describe at a high level what your project is and the motivation for the project (i.e., what problem(s) your projects solves) and includes a **screenshot** of the application in the browser.
+    - [ ] **Technologies Used:** A list of the languages, libraries and frameworks used in your application.
+    - [ ] **Getting Started/Installation Instructions:** This would likely describe how to use the application and the steps to fork, clone and run the application.
+    - [ ] **Contribution Guidelines:** This section should offer guidance on where and how users can contribute to your code, identify bugs, and propose improvements.
+- [ ] **Use git for version control.**
+  - [ ] Your project must contain frequent, cohesive commits dating back to the **first day** of the project week.
 
-#### Your code must:
+> ### :triangular_flag_on_post: IMPORTANT:
+> To be clear,  **your app should be built in your own Github repository**. That means that you must create a new repo on your Github account. DO NOT build your app in this repository.
 
-- Be properly indented.  
-- Be written with semantic, camelCase JavaScript variable names.  
-- Be written with kebab-case (dashes) CSS class names.  
-- Contain no `console.log()` or commented out code in final version.  
-- Use only React for DOM manipulation.  
-- No pre-loaded `create-react-app` files or code.
+## Pre-Project Deliverable (Required)
 
-## Necessary Deliverables
-#### A README with the following:
+You must make a proposal and submit it to your squad leader by Friday at noon.  Your squad leader will review and approve your proposal or meet with you to refine the scope.  Your proposal **must** include:
 
-**Refer to the [project worksheet](/project-worksheet.md) file in this repo for structuring your README.**
-
-###### For the proposal:
 - A collection of wireframes - hand-drawn or digitally created - outlining the important pages of your site, as well as the critical states of your project, drawing a component hierarchy would be a great way to indicate which components need state and which components need props.
 - A proposal including:
 	- A description of the project you'll be building with the objective described in non-technical language.
-	- An explanation of the major problems you plan to face while implementing this app.
-	- An explanation of how you foresee yourself solving the aforementioned problems.
-	- A visual of your component hierarchy.  
-	- A link to the API you plan to use.  
+	- A link to the API you plan to use and an example of the data response you will use.
+  	- **YOU ARE REQUIRED TO SHOW THAT YOU CAN RECEIVE THE DATA NEEDED TO SUPPORT YOUR PROPOSAL**. Try out your API in the browser or using [Postman](https://www.getpostman.com/) before you get too emotionally invested in your idea to make sure the API works the way you think it does.
+	- A visual of your component hierarchy.
 	- A section clearly defining MVP and POST MVP.
 	- If you plan on incorporating a component library, include a link in your proposal.
 
-#### For the project:
-- A git repository hosted on GitHub, with a link to your hosted project, and **frequent** commits dating back to the very beginning of the project (YOUR APP SHOULD BE LOCATED IN A SEPARATE STANDING REPO. DO NOT build your app in this repository. YOU MUST initiate a new repo on your GitHub account.) 
+**Refer to the [project worksheet](/project-worksheet.md) file in this repo to help structure your proposal.**
 
-<hr>
+## APIs
 
-## Tips
+Below are some collections of APIs you may consider.  None of these is a comprehensive list and some APIs may no longer be available.  While you must incorporate data from an API, you are **not required** to use any of the listed APIs.  They are provided solely as examples.
 
-* **Commit early, commit often.**  Don't be afraid to break something because you can always go back in time to a previous version.
-
-## Planning
-
-1. [Watch this video on the Minimum Viable Product](https://www.youtube.com/watch?v=1FoCbbbcYT8)
-
-2. **Begin with the end in mind**. Spend a dedicated block of time to planning with ***wireframes*** and ***user stories*** so you don't waste time building things you don't need.
-3. **Write pseudocode before you write actual code**. Thinking through the logic of something helps streamline your process.
-4. **User stories define what a specific type of user wants to accomplish with your application**. It's tempting to just use your list of user stories as a ***todo list***, but try to avoid this. If you keep your user stories small and focused on what a user cares about being able to do. This will help you prioritize your tasks and which features to build first.
-
-> [Definition of User Stories](https://www.mountaingoatsoftware.com/agile/user-stories)
-
-## Building Out from your Plan
-
-After planning your app: 
-
-1. Create your React architecture
-2. Build your Components
-3. Decided on your CSS styling.
-3. Add new features!
+- [List of Public APIs](https://github.com/toddmotto/public-apis)
+- [More APIs](https://github.com/abhishekbanthia/Public-APIs),
+- [Instructor Recommended APIs](https://git.generalassemb.ly/sei-nyc-pirates/apis)
 
 ## Getting Unstuck
 
-* **Don't hesitate to write messy code to solve short-term problems**&mdash;***Refactor later***
-* **Read the docs for whatever technologies you use**. The docs often include a tutorial that can help you get started, and learning to read documentation is crucial to your success as a developer.
+- Don't hesitate to write messy code to solve short-term problems &mdash; ***refactor later***.
+- **Read the docs for whatever technologies you use**. The docs often include a tutorial that can help you get started, and learning to read documentation is crucial to your success as a developer.
 
-## Asking For Help
+### Asking For Help
 
-### In-person Support
+#### Office Hours Appointments
 
-Each student will be given 5 (five) tokens, redeemable at any time during regular
-class and Study Hall time (not including evening Office hours), for 20 minutes
-with an instructor. Tokens cannot be transferred between students - there is no
-black market for tokens.
+Instructors will be hosting office hours between 11:00 to 1:00pm ET and 2:00 to 4:00pm ET (except on Monday 1/6 when we will only be offering office hours from 2:00 - 4:00pm ET)
+each day of project week.
 
-Instructors will not be holding open office hours during project week. This is
-to give you the opportunity to solve issues and errors you run in to on your own
-and with your classmates. Dan, however, will still hold his office hours as planned.
+> The purpose of this project is for you to show us and future employers what
+> you're capable of, so we want as much of the project to be your own,
+> independent work as possible
 
-An instructor will be assigned to each team and wil check in with your team
-every morning for about 15 minutes. The purpose of these check-ins is not to
-discuss technical questions, but to answer questions about workflow and get a status checkin.
+#### Github Issues
 
-#### Maximizing Effectiveness of Support Sessions
+We strongly encourage you to file a Github issue prior to asking the instructors
+for help directly. This will not only make you a better developer but a better
+learner. Visit
+[this readme](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/asking-for-help.md)
+for more details on asking for help.
 
-Prior to using one of your tokens, we ***strongly recommend*** that you file an issue on this repository in order to both provide the instructor with a point of reference regarding your code and the issue you are having. This will enable us to give you more effective guidance.
+**You should use this time to ask for constructive feedback, so come with
+questions prepared and specific things you'd like advice on.**
 
-When you submit an issue please include the following:
+## Approach
 
-  1. A code snippet
-  2. A precise and specific description of your issue
-  3. What error you got
-  4. What you already tried to resolve your error and the result of those attempts
+#### 1. Plan
+Spend a dedicated block of time to planning with ***wireframes*** and ***user stories*** so that your project time remains focused on producing the things that are necessary to satisfy the project requirements, and so you avoid [scope creep](https://en.wikipedia.org/wiki/Scope_creep).  Write out your [user stories](https://www.mountaingoatsoftware.com/agile/user-stories), keeping in mind that this is not a todo list but rather what specific users will want or need to do with your app. Next, critically review and pare them back to the absolute minimum necessary to satisfy the project requirements, always focusing on [Minimum Viable Product](https://www.youtube.com/watch?v=1FoCbbbcYT8).
 
-> [Check here for details on this process](https://github.com/ga-dc/wdi12/blob/master/asking-for-help.md#during-project-weeks).
+#### 2. Follow the Thinking in React model
 
-We also strongly recommend **using Slack to get help from your classmates**. Chances are you all will be running into similar problems.
+Once you have a solid plan for your features, follow the [Thinking in React](https://reactjs.org/docs/thinking-in-react.html) model beginning by deconstructing your wireframes into components.
+
+#### 3. Pseudocode
+
+Write pseudocode before you write actual code. Think through the logic step by step, breaking down the big problem into smaller, easier to solve ones.
+
+#### 4. Review and Pivot
+
+Review your progress daily.  Make sure to take time at the end of each day to review your progress against the list of requirements.  This will help you to better manage your time throughout the project week.
+
+
+## Tips
+
+- **Commit early, commit often.**  Don't be afraid to break something because you can always go back in time to a previous version.
+- **Focus on code not style.**  You must satisfy all of the project requirements.  There are no exceptions made for really good looking projects that don't work or fulfill the project requirements.  You will have plenty of time to enhance and style your project at the conclusion of the program.
+- **Don't over extend yourself.**  You have grand ideas and we want you to push yourself, but one very important skill as a developer is to never take on more work than you can complete in the allotted time. You will not get credit for great ideas.  Execution and fulfillment of the project requirements is what you will be measured on both here and in your future professional lives.
 
 ## A Note on Plagiarism
 
 Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-1118/Administrative/blob/master/plagiarism.md), specifically on using work you find online and on work you do with other students.
-
