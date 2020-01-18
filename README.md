@@ -15,16 +15,16 @@ We'll be evaluating your projects against the following criteria.  Hard requirem
 - [ ] **Be a working, interactive, React application.**
   - [ ] It must only use React for DOM manipulation.
   - [ ] It must not produce errors or console logs when used.
-  - [ ] It must not display any non-functional actions (e.g., buttons or links that do not work).
-  - [ ] It must not dependent upon or cause the page to refresh (it must be a SPA).
-  - [ ] It must include at least two interactive features (e.g., the user can switch views to see more detail is one example).
+  - [ ] It must not display any non-functional actions (_e.g._, buttons or links that do not work).
+  - [ ] It must not be dependent upon or cause the page to refresh (it must be a SPA).
+  - [ ] It must include at least two interactive features (_e.g._, the user can switch views to see more detail).
   - [ ] It must not contain any JavaScript alerts.
   - [ ] It must be properly indented and written with semantic, camelCase JavaScript and JSX.
   - [ ] It must be free from extraneous `create-react-app` files or code.  Specifically, you must remove the preloaded logo.svg and unused App.css style declarations.
 - [ ] **Include data from a third-party API.**
   - [ ] It must contain at least one request to an API
   - [ ] You must use an environment variable to store any API keys if keys are required to make requests to the API you choose.  (We will review this process with you.)
-  - [ ] Your API requests **must be made over https**.  Not all APIs support https (most do), but make sure that the API you use has a url that begins with **`https://` not `http://`**.
+  - [ ] Your API requests **must be made over https**.  Not all APIs support https (most do). Make sure that the API you use has a url that begins with **`https://` not `http://`**.
   - [ ] Each request must handle errors by displaying a message to the user and must not log the error to the console.
   - [ ] The data returned from the API must be used in the application.
 - [ ] **Use React Router.**
@@ -34,9 +34,9 @@ We'll be evaluating your projects against the following criteria.  Hard requirem
   - [ ] It must use stateless and stateful components appropriately.
   - [ ]  It may use class-based components or hooks for stateful components.
 - [ ] **Be deployed to the Web.**
-  - [ ] It must be accessible as an application on the Web (_see_ details below for how to deploy React applications).
+  - [ ] It must be accessible as an application on the Web (_see_ [Deploying React Apps on Heroku](deployment.md)).
   - [ ] It must separately have a public **GitHub** repository containing your code.
-  - [ ] You must not commit your API keys to Github. (We will review this process with you.)
+  - [ ] You must not commit your API keys to Github. (_see_ [Storing Your APIs Key](deployment.md))
 - [ ] **Use Flexbox or CSS Grid for layouts.**
   - [ ] It must not use floats for layout or depend solely upon positioning elements with fixed or absolute position.
   - [ ] It may incorporate a component library or styling framework.
@@ -44,7 +44,7 @@ We'll be evaluating your projects against the following criteria.  Hard requirem
   - [ ] Your Github repository must contain a brief description and link to the deployed application in the "website" section at the top of the Code tab.
   - [ ] Your Github repository must contain a README.md file for documentation that is properly formatted using [Github flavored markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
   - [ ] Your Github repository  README.md must include the following sections:
-    - [ ] **Description:** Describe at a high level what your project is and the motivation for the project (i.e., what problem(s) your projects solves) and includes a **screenshot** of the application in the browser.
+    - [ ] **Description:** Describe at a high level what your project is and the motivation for the project (_i.e._, what problem(s) your projects solves) and includes a **screenshot** of the application in the browser.
     - [ ] **Technologies Used:** A list of the languages, libraries and frameworks used in your application.
     - [ ] **Getting Started/Installation Instructions:** This would likely describe how to use the application and the steps to fork, clone and run the application.
     - [ ] **Contribution Guidelines:** This section should offer guidance on where and how users can contribute to your code, identify bugs, and propose improvements.
@@ -71,16 +71,22 @@ You must make a proposal and submit it to your squad leader by Friday at noon.  
 
 ## APIs
 
-Below are some collections of APIs you may consider.  None of these is a comprehensive list and some APIs may no longer be available.  While you must incorporate data from an API, you are **not required** to use any of the listed APIs.  They are provided solely as examples.
+Below are some collections of APIs you may consider.  None of these is a comprehensive list of all APIs that are available.  Also bear in mind that some APIs on these lists may no longer be available and others **may not be suitable** for this project because they are only available via http.
 
-- [List of Public APIs](https://github.com/toddmotto/public-apis)
-- [More APIs](https://github.com/abhishekbanthia/Public-APIs),
-- [Instructor Recommended APIs](https://git.generalassemb.ly/sei-nyc-pirates/apis)
+While you must incorporate data from an API, you are **not required** to use any of the listed APIs.  They are provided solely as examples.
+
+- [Public APIs | toddmotto](https://github.com/toddmotto/public-apis)
+- [Public APIs | abhishekbanthia](https://github.com/abhishekbanthia/Public-APIs)
+- [Public APIs | n0shake](https://github.com/n0shake/Public-APIs)
+- [Public APIs | public-apis](https://github.com/public-apis/public-apis)
 
 ## Getting Unstuck
 
-- Don't hesitate to write messy code to solve short-term problems &mdash; ***refactor later***.
-- **Read the docs for whatever technologies you use**. The docs often include a tutorial that can help you get started, and learning to read documentation is crucial to your success as a developer.
+- If you don’t know a good way, try a bad way. Don't hesitate to write messy code to solve short-term problems &mdash; ***refactor later***.
+- **Read the docs**. Documentation often includes tutorials or code snippets that can help you get started, and learning to read documentation is crucial to your success as a developer.
+- Try explaining your problem to your [**rubber duck**](https://rubberduckdebugging.com/).  There's a lot of psychology behind talking out a problem to find a solution.  In rubber duck debugging, the idea is that when you have to explain your code your are forced to examine your code with a different part of your brain.
+- Give yourself a time limit.  Generally speaking, if you haven't found a solution on your own within an hour or two, it's time to ask for help.
+- Take a break.  Sometimes the best thing you can do is walk away from the computer.  Get yourself a coffee, take the dog for a walk, anything that will give you time to reset for 10 minutes.  Then when you return to the problem, reread any code or pseudocode you've already written.
 
 ### Asking For Help
 
@@ -122,7 +128,7 @@ Review your progress daily.  Make sure to take time at the end of each day to re
 ## Tips
 
 - **Commit early, commit often.**  Don't be afraid to break something because you can always go back in time to a previous version.
-- **Focus on code not style.**  You must satisfy all of the project requirements.  There are no exceptions made for really good looking projects that don't work or fulfill the project requirements.  You will have plenty of time to enhance and style your project at the conclusion of the program.
+- **Focus on code not design.**  You must satisfy all of the project requirements.  There are no exceptions made for really good looking projects that don't work or fulfill the project requirements.  You will have plenty of time to enhance and style your project at the conclusion of the program.
 - **Don't over extend yourself.**  You have grand ideas and we want you to push yourself, but one very important skill as a developer is to never take on more work than you can complete in the allotted time. You will not get credit for great ideas.  Execution and fulfillment of the project requirements is what you will be measured on both here and in your future professional lives.
 
 ## A Note on Plagiarism
