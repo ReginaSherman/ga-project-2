@@ -1,11 +1,10 @@
 # ![](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) Project 2: React
-#### Overview
 
 Let's kick it up a notch and build a modular and modern front end application using React!
 
 Like with project one, the Unit 2 project is a chance to build a project that you can share with  future prospective employers to demonstrate your skills and evolution as a software engineer. You will be working individually for this project, but we will offer office hours and support via the issue queue throughout the project.
 
-For this project, you **must** submit your idea to your squad leader by noon EST Friday.
+For this project, you **must** submit your idea to your squad leader in the form of a [project propsal](https://git.generalassemb.ly/seir-129/project-2#pre-project-deliverable-required) by noon EST Friday.
 
 ## Requirements
 
@@ -58,16 +57,17 @@ We'll be evaluating your projects against the following criteria.  Hard requirem
 
 You must make a proposal and submit it to your squad leader by Friday at noon.  Your squad leader will review and approve your proposal or meet with you to refine the scope.  Your proposal **must** include:
 
-- A collection of wireframes - hand-drawn or digitally created - outlining the important pages of your site, as well as the critical states of your project, drawing a component hierarchy would be a great way to indicate which components need state and which components need props.
-- A proposal including:
-	- A description of the project you'll be building with the objective described in non-technical language.
-	- A link to the API you plan to use and an example of the data response you will use.
-  	- **YOU ARE REQUIRED TO SHOW THAT YOU CAN RECEIVE THE DATA NEEDED TO SUPPORT YOUR PROPOSAL**. Try out your API in the browser or using [Postman](https://www.getpostman.com/) before you get too emotionally invested in your idea to make sure the API works the way you think it does.
-	- A visual of your component hierarchy.
-	- A section clearly defining MVP and POST MVP.
-	- If you plan on incorporating a component library, include a link in your proposal.
+- A **description of the project** you'll be building with the objective described in non-technical language.
+- Hand-drawn or digitally created **wireframes** outlining the key views within your app.
+- A collection of **user stories representing project MVP**.  You may include additional information about post-MVP plans for your application.
+- A link to the **API** you plan to use and an **example of the data response** you will use.
+- A **visual of your component hierarchy**. Think of the the critical states of your project and identify the data that each component will need. Optionally, indicate which components need state and which components will recieve props.
+- If you plan on incorporating a component library, include a link in your proposal.
 
-**Refer to the [project worksheet](/project-worksheet.md) file in this repo to help structure your proposal.**
+> ### :triangular_flag_on_post: IMPORTANT:
+> **YOU ARE REQUIRED TO SHOW THAT YOU CAN RECEIVE THE DATA NEEDED TO SUPPORT YOUR PROPOSAL**. Try out your API in the browser or using [Postman](https://www.getpostman.com/) before you get too emotionally invested in your idea to make sure the API works the way you think it does.
+
+Use the **[Project Worksheet](/project-worksheet.md)** in this repository to prepare your proposal.  For additional guidance in completing the worksheet, refer to the [Project Proposal Example](project-proposal-example.md).
 
 ## APIs
 
@@ -94,7 +94,7 @@ While you must incorporate data from an API, you are **not required** to use any
 
 The purpose of this project is for you to show us and future employers what you're capable of, so we want as much of the project to be your own, independent work as possible. Therefore, each student will be given 5 (five) tokens to ask for help. Each token will give you 20 minutes of one-on-one consultation time with your Squad Lead. Tokens are redeemable during regular class time or as determined by your Squad Lead. Tokens cannot be transferred between students - there is no black market for tokens.
 
-An instructor will be assigned to each team and wil check in with your team briefly every morning (whether via Slack or on Zoom). The purpose of these check-ins is NOT to discuss technical questions, but to answer questions about workflow and get a status checkin.
+An instructor will be assigned to each team and will check in with your team briefly every morning (whether via Slack or on Zoom). The purpose of these check-ins is NOT to discuss technical questions, but to answer questions about workflow and get a status checkin.
 
 #### Github Issues
 
