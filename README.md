@@ -33,9 +33,9 @@ We'll be evaluating your projects against the following criteria.  Hard requirem
   - [ ] It must use stateless and stateful components appropriately.
   - [ ]  It may use class-based components or hooks for stateful components.
 - [ ] **Be deployed to the Web.**
-  - [ ] It must be accessible as an application on the Web (_see_ [Deploying React Apps on Heroku](deployment.md)).
+  - [ ] It must be accessible as an application on the Web (_see_ [Deploying React Apps on Heroku](project-setup-and-deployment-guide.md)).
   - [ ] It must separately have a public **GitHub** repository containing your code.
-  - [ ] You must not commit your API keys to Github. (_see_ [Storing Your APIs Key](deployment.md))
+  - [ ] You must not commit your API keys to Github. (_see_ [Storing Your APIs Key](project-setup-and-deployment-guide.md))
 - [ ] **Use Flexbox or CSS Grid for layouts.**
   - [ ] It must not use floats for layout or depend solely upon positioning elements with fixed or absolute position.
   - [ ] It may incorporate a component library or styling framework.
