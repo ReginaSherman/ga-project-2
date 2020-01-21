@@ -26,10 +26,10 @@ Make sure to set up your project following the steps listed in this document.
   npx create-react-app your-project-name
   ```
 
-3. Change directories into the newly created project directory:
+3. Change directories into the newly created project directory, replacing where it reads `your-project-name` with your project name:
 
   ```bash
-  cd ~/sei/projects
+  cd ~/sei/projects/your-project-name
   ```
 
 4. Create a new file named `.env.local` (the name of this file must be exactly as written here) to store your API keys using the `touch` command in the Terminal:
@@ -81,7 +81,7 @@ https://fakestocks.com/q?apikey=4j4584fds930g5437d89&symbol=AAPL
 To substitute the hardcoded key in the example above with an API key in your `.env.local` file that you named `REACT_APP_STOCK_API_KEY`, you would do the following:
 
 ```js
-// Use string concatenation to add the key
+// Use string concatenation or interpolation to add the key
 const url = `https://fakestocks.com/q?apikey=${process.env.REACT_APP_STOCK_API_KEY}&symbol=AAPL`
 
 // Use the url as normal in your request
@@ -127,9 +127,9 @@ To configure a React application for Heroku, follow the steps below.  This initi
   heroku login
   ```
 
-2. Make sure you are **in your  local project directory** at the command prompt and if not, use `cd` to switch into your project directory.
+2. Make sure you are **in your local project directory** at the command prompt and if not, use `cd` to switch into your project directory.
 
-  Next you'll create a project in Heroku.  The name of your project in Heroku must be **unique across all of Heroku**.  For this reason,  you may have try several times before you find a name that  is unique.  The project name in Heroku **does not** need to match your Github repository name or your local directory name.  Replace `myapp` below with your project name.
+  Next you'll create a project in Heroku.  The name of your project in Heroku must be **unique across all of Heroku**.  For this reason,  you may have to try several times before you find a name that is unique.  The project name in Heroku **does not** need to match your Github repository name or your local directory name.  Replace `myapp` below with your project name.
 
   ```bash
   heroku create myapp
