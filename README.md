@@ -20,6 +20,7 @@ We'll be evaluating your projects against the following criteria.  Hard requirem
   - [ ] It must not contain any JavaScript alerts.
   - [ ] It must be properly indented and written with semantic, camelCase JavaScript and JSX.
   - [ ] It must be free from extraneous `create-react-app` files or code.  Specifically, you must remove the preloaded logo.svg and unused App.css style declarations.
+  - [ ] It may include Jest unit tests.
 - [ ] **Include data from a third-party API.**
   - [ ] It must contain at least one request to an API
   - [ ] You must use an environment variable to store any API keys if keys are required to make requests to the API you choose.  (We will review this process with you.)
