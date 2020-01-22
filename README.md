@@ -8,48 +8,61 @@ For this project, you **must** submit your idea to your squad leader in the form
 
 ## Requirements
 
-We'll be evaluating your projects against the following criteria.  Hard requirements are denoted with the terms **must** or **must not**.  Optional requirements use the term **may**.
+We'll be evaluating your projects against the following **hard** requirements:
+
+1. Your app must be a working, interactive, React application.
+2. It must include data from a third-party API.
+3. It must use at least 4 separate components.
+4. It must be deployed to the Web.
+5. It uses flexbox or CSS grid for layout and not floats.
+6. Your project repository must adequately documents your project and includes a line to the deployed app.
+7. You have used git for version control throughout the project.
+
+Additionally, if your project contains any navigation features, you must use **React Router** for them.
+
+### Requirements Criteria
+
+We will determine whether or not you've met the requirements using the following criteria.  The term **may** refers to optional criteria, while **must** or **must not** are not optional.
 
 #### Your app must:
 - [ ] **Be a working, interactive, React application.**
-  - [ ] It must only use React for DOM manipulation.
-  - [ ] It must not produce errors or console logs when used.
-  - [ ] It must not display any non-functional actions (_e.g._, buttons or links that do not work).
-  - [ ] It must not be dependent upon or cause the page to refresh (it must be a SPA).
-  - [ ] It must include at least two interactive features (_e.g._, the user can switch views to see more detail).
-  - [ ] It must not contain any JavaScript alerts.
-  - [ ] It must be properly indented and written with semantic, camelCase JavaScript and JSX.
-  - [ ] It must be free from extraneous `create-react-app` files or code.  Specifically, you must remove the preloaded logo.svg and unused App.css style declarations.
-  - [ ] It may include Jest unit tests.
+  - It must only use React for DOM manipulation.
+  - It must not produce errors or console logs when used.
+  - It must not display any non-functional actions (_e.g._, buttons or links that do not work).
+  - It must not be dependent upon or cause the page to refresh (it must be a SPA).
+  - It must include at least two interactive features (_e.g._, the user can switch views to see more detail).
+  - It must not contain any JavaScript alerts.
+  - It should be free from extraneous `create-react-app` files or code.  Specifically, you should remove the preloaded logo.svg and unused App.css style declarations.
+  - It may include Jest unit tests.
 - [ ] **Include data from a third-party API.**
-  - [ ] It must contain at least one request to an API
-  - [ ] You must use an environment variable to store any API keys if keys are required to make requests to the API you choose.  (We will review this process with you.)
-  - [ ] Your API requests **must be made over https**.  Not all APIs support https (most do). Make sure that the API you use has a url that begins with **`https://` not `http://`**.
-  - [ ] Each request must handle errors by displaying a message to the user and must not log the error to the console.
-  - [ ] The data returned from the API must be used in the application.
-- [ ] **Use React Router.**
-    - [ ] It must use React Router for navigation.
-    - [ ] It must not depend soley on the browser's navigation buttons.
+  - It must contain at least one request to an API.
+  - You must use an environment variable to store any API keys if keys are required to make requests to the API you choose.  (_see_ [Storing API Keys Outside of Github](project-setup-and-deployment-guide.md#storing-api-keys-outside-of-github))
+  - Your API requests **must be made over https**.  Not all APIs support https (most do). Make sure that the API you use has a url that begins with **`https://` not `http://`**.
+  - Each request must handle errors by displaying a message to the user and must not log the error to the console.
+  - The data returned from the API must be used in the application.
 - [ ] **Have at least 4 separate components.**
-  - [ ] It must use stateless and stateful components appropriately.
-  - [ ]  It may use class-based components or hooks for stateful components.
+  - It may use class-based components or hooks for stateful components.
+  - It should use stateless (function) and stateful (class) components appropriately.
 - [ ] **Be deployed to the Web.**
-  - [ ] It must be accessible as an application on the Web (_see_ [Deploying React Apps on Heroku](project-setup-and-deployment-guide.md)).
-  - [ ] It must separately have a public **GitHub** repository containing your code.
-  - [ ] You must not commit your API keys to Github. (_see_ [Storing Your APIs Key](project-setup-and-deployment-guide.md))
+  - It must be accessible as an application on the Web. (_see_ [Deploying React Apps on Heroku](project-setup-and-deployment-guide.md#deploying-react-apps-on-heroku))
+  - It must separately have a public **GitHub** repository containing your code.
+  - You must not commit your API keys to Github. (_see_ [Storing API Keys Outside of Github](project-setup-and-deployment-guide.md#storing-api-keys-outside-of-github))
 - [ ] **Use Flexbox or CSS Grid for layouts.**
-  - [ ] It must not use floats for layout or depend solely upon positioning elements with fixed or absolute position.
-  - [ ] It may incorporate a component library or styling framework.
+  - It must not use floats for layout or depend solely upon positioning elements with fixed or absolute position.
+  - It may incorporate a component library or styling framework.
 - [ ] **Be adequately documented on Github.**
-  - [ ] Your Github repository must contain a brief description and link to the deployed application in the "website" section at the top of the Code tab.
-  - [ ] Your Github repository must contain a README.md file for documentation that is properly formatted using [Github flavored markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
-  - [ ] Your Github repository  README.md must include the following sections:
+  - Your Github repository must contain a brief description and link to the deployed application in the "website" section at the top of the Code tab.
+  - Your Github repository must contain a README.md file for documentation that is properly formatted using [Github flavored markdown](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax).
+  - Your Github repository  README.md must include the following sections:
     - [ ] **Description:** Describe at a high level what your project is and the motivation for the project (_i.e._, what problem(s) your projects solves) and includes a **screenshot** of the application in the browser.
     - [ ] **Technologies Used:** A list of the languages, libraries and frameworks used in your application.
     - [ ] **Getting Started/Installation Instructions:** This would likely describe how to use the application and the steps to fork, clone and run the application.
     - [ ] **Contribution Guidelines:** This section should offer guidance on where and how users can contribute to your code, identify bugs, and propose improvements.
 - [ ] **Use git for version control.**
-  - [ ] Your project must contain frequent, cohesive commits dating back to the **first day** of the project week.
+  - Your project must contain frequent, cohesive commits dating back to the **first day** of the project week.
+- [ ] **Use React Router for navigation (_as needed_).**
+    - If your app has navigation features, it must use React Router for the navigation.
+    - It should not depend solely on the browser's navigation buttons.
 
 > ### :triangular_flag_on_post: IMPORTANT:
 > To be clear,  **your app should be built in your own Github repository**. That means that you must create a new repo on your Github account. DO NOT build your app in this repository.
@@ -95,18 +108,25 @@ While you must incorporate data from an API, you are **not required** to use any
 
 The purpose of this project is for you to show us and future employers what you're capable of, so we want as much of the project to be your own, independent work as possible. Therefore, each student will be given 5 (five) tokens to ask for help. Each token will give you 20 minutes of one-on-one consultation time with your Squad Lead. Tokens are redeemable during regular class time or as determined by your Squad Lead. Tokens cannot be transferred between students - there is no black market for tokens.
 
+**You should use this time to ask for constructive feedback or recommendations on an approach you're taking in your code or application's architecture.  Come prepared with specific questions.**
+
 An instructor will be assigned to each team and will check in with your team briefly every morning (whether via Slack or on Zoom). The purpose of these check-ins is NOT to discuss technical questions, but to answer questions about workflow and get a status checkin.
 
 #### Github Issues
 
-We strongly encourage you to file a Github issue prior to asking the instructors
-for help directly. This will not only make you a better developer but a better
-learner. Visit
-[this readme](https://git.generalassemb.ly/DC-WDI/Administrative/blob/master/asking-for-help.md)
-for more details on asking for help.
+We strongly encourage you to file a Github issue in this repository prior to using your tokens. **Learning to communicate effectively about issues in your code essential skill as a developer.**
 
-**You should use this time to ask for constructive feedback, so come with
-questions prepared and specific things you'd like advice on.**
+[Open an Issue](../../issues/new) by clicking the Issues tab in this repository, and then click the green `New issue` button.  Give your issue a descriptive title, answer the questions in the issue body as best as you can, then click `Submit new issue`.
+
+Once you've submitted your issue, an instructor may:
+
+- Ask for further clarification about the issue or what you've tried on your own.
+- Provide you with links to a probable solution for you to try.
+- Provide you with example code.
+- Give you guidance on solving your issue.
+- Recommend that you meet for a one on one to resolve your issue in person.
+
+Once your issue has been resolved, make sure you Close the issue.
 
 ## Approach
 
