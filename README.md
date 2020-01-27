@@ -4,7 +4,7 @@ Let's kick it up a notch and build a modular and modern front end application us
 
 Like with project one, the Unit 2 project is a chance to build a project that you can share with  future prospective employers to demonstrate your skills and evolution as a software engineer. You will be working individually for this project, but we will offer office hours and support via the issue queue throughout the project.
 
-For this project, you **must** submit your idea to your squad leader in the form of a [project propsal](https://git.generalassemb.ly/seir-129/project-2#pre-project-deliverable-required) by noon EST Friday.
+For this project, you **must** submit your idea to your squad leader in the form of a [project propsal](https://git.generalassemb.ly/seir-129/project-2#pre-project-deliverable-required) by noon EST Thursday.
 
 ## Requirements
 
