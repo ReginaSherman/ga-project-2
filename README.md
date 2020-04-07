@@ -4,7 +4,7 @@ Let's kick it up a notch and build a modular and modern front end application us
 
 Like with project one, the Unit 2 project is a chance to build a project that you can share with  future prospective employers to demonstrate your skills and evolution as a software engineer. You will be working individually for this project, but we will offer office hours and support via the issue queue throughout the project.
 
-For this project, you **must** submit your idea to your squad leader in the form of a [project propsal](https://git.generalassemb.ly/seir-129/project-2#pre-project-deliverable-required) by noon EST Thursday.
+For this project, you **must** submit your idea to your squad leader in the form of a [project proposal](https://git.generalassemb.ly/seir-323/project-2#pre-project-deliverable-required) by noon EST Monday 4/27.
 
 ## Requirements
 
@@ -37,12 +37,12 @@ We will determine whether or not you've met the requirements using the following
 - [ ] **Include data from a third-party API.**
   - It must contain at least one request to an API.
   - You must use an environment variable to store any API keys if keys are required to make requests to the API you choose.  (_see_ [Storing API Keys Outside of Github](project-setup-and-deployment-guide.md#storing-api-keys-outside-of-github))
-  - Your API requests **must be made over https**.  Not all APIs support https (most do). Make sure that the API you use has a url that begins with **`https://` not `http://`**.
+  - Your API requests **must be made over https**.  Not all APIs support https (most do). Make sure that the API you use has a url that begins with **`https://` not `http://`**. Read about [why](https://www.cloudflare.com/learning/ssl/why-is-http-not-secure/)
   - Each request must handle errors by displaying a message to the user and must not log the error to the console.
   - The data returned from the API must be used in the application.
 - [ ] **Have at least 4 separate components.**
   - It may use class-based components or hooks for stateful components.
-  - It should use stateless (function) and stateful (class) components appropriately.
+  - It must use stateless (function) and stateful (class) components appropriately.
 - [ ] **Be deployed to the Web.**
   - It must be accessible as an application on the Web. (_see_ [Deploying React Apps on Heroku](project-setup-and-deployment-guide.md#deploying-react-apps-on-heroku))
   - It must separately have a public **GitHub** repository containing your code.
@@ -69,7 +69,7 @@ We will determine whether or not you've met the requirements using the following
 
 ## Pre-Project Deliverable (Required)
 
-You must make a proposal and submit it to your squad leader by Friday at noon.  Your squad leader will review and approve your proposal or meet with you to refine the scope.  Your proposal **must** include:
+You must make a proposal and submit it to your squad leader by Monday 4/27 at noon EST.  Your squad leader will review and approve your proposal or meet with you to refine the scope.  Your proposal **must** include:
 
 - A **description of the project** you'll be building with the objective described in non-technical language.
 - Hand-drawn or digitally created **wireframes** outlining the key views within your app.
