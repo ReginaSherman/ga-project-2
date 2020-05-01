@@ -1,13 +1,18 @@
 # Presentations
 
-Each presentation will be at most ten minutes long. We recommend that you plan
+Each presentation will be at most 7-8 minutes long to accommodate all our students. We recommend that you plan
 your presentation ahead of time and practice running through it at least once.
-About 3-4 minutes should then be allotted for questions from the class. We suggest the following structure:
+About 3-4 minutes should be allotted for questions from the class. We suggest the following structure:
 
 ## Introduction
 
 - What's your app called?
 - Why is it useful? What is your "pitch"?
+
+## The Planning Process
+
+- How did you arrive at this idea?
+- What would you change about your planning process?
 
 ## Demonstrating Your App
 
@@ -18,16 +23,6 @@ About 3-4 minutes should then be allotted for questions from the class. We sugge
 - What was the most difficult part?
 - What did you learn?
 - What are you most proud of?
-
-## The Planning Process
-
-- How did you arrive at this idea?
-- What would you change about your planning process?
-
-## The Week
-
-- What was your week like?
-- Did you feel the Emotional Cycle of Change?
 
 ## Highs and Lows
 
