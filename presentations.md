@@ -32,4 +32,4 @@ About 3-4 minutes should be allotted for questions from the class. We suggest th
 
 ## Presentation Schedule
 
-Presentations will take begin at 11:00 am ET on Monday, 5/4 in our classroom channel. We will post a thread in the morning for students to sign up for presentations, and follow the order of the thread. 
+Presentations will begin at 11:00 am ET on Monday, 5/4 in our classroom channel. We will post a thread in the morning for students to sign up for presentations, and follow the order of the thread. 
