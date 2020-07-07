@@ -2,9 +2,11 @@
 
 Let's kick it up a notch and build a modular and modern front end application using React!
 
-Like with project one, the Unit 2 project is a chance to build a project that you can share with  future prospective employers to demonstrate your skills and evolution as a software engineer. You will be working individually for this project, but we will offer office hours and support via the issue queue throughout the project.
+Like with project one, the Unit 2 project is a chance to build a project that you can share with  future prospective employers to demonstrate your skills and evolution as a software engineer. 
 
-For this project, you **must** submit your idea to your squad leader in the form of a [project proposal](https://git.generalassemb.ly/seir-323/project-2#pre-project-deliverable-required) by noon EST Monday 4/27.
+You will be working individually for this project, but we will offer office hours and support via the issue queue throughout the project.
+
+For this project, you **must** submit your idea to your squad leader in the form of a [project proposal](https://git.generalassemb.ly/seir-622/project-2#pre-project-deliverable-required) by noon EST Monday 4/27.
 
 ## Requirements
 
@@ -15,7 +17,7 @@ We'll be evaluating your projects against the following **hard** requirements:
 3. It must use at least 4 separate components.
 4. It must be deployed to the Web.
 5. It uses flexbox or CSS grid for layout and not floats.
-6. Your project repository must adequately documents your project and includes a line to the deployed app.
+6. Your project repository must adequately document your project and include a line to the deployed app.
 7. You have used git for version control throughout the project.
 
 Additionally, if your project contains any navigation features, you must use **React Router** for them.
@@ -29,11 +31,10 @@ We will determine whether or not you've met the requirements using the following
   - It must only use React for DOM manipulation.
   - It must not produce errors or console logs when used.
   - It must not display any non-functional actions (_e.g._, buttons or links that do not work).
-  - It must not be dependent upon or cause the page to refresh (it must be a SPA).
+  - It must not be dependent upon or cause the page to refresh (it must be an SPA).
   - It must include at least two interactive features (_e.g._, the user can switch views to see more detail).
   - It must not contain any JavaScript alerts.
   - It should be free from extraneous `create-react-app` files or code.  Specifically, you should remove the preloaded logo.svg and unused App.css style declarations.
-  - It may include Jest unit tests.
 - [ ] **Include data from a third-party API.**
   - It must contain at least one request to an API.
   - You must use an environment variable to store any API keys if keys are required to make requests to the API you choose.  (_see_ [Storing API Keys Outside of Github](project-setup-and-deployment-guide.md#storing-api-keys-outside-of-github))
@@ -69,7 +70,7 @@ We will determine whether or not you've met the requirements using the following
 
 ## Pre-Project Deliverable (Required)
 
-You must make a proposal and submit it to your squad leader by Monday 4/27 at noon EST.  Your squad leader will review and approve your proposal or meet with you to refine the scope.  Your proposal **must** include:
+You must make a proposal and submit it to your squad leader by Monday 7/28 at noon EST.  Your squad leader will review and approve your proposal or meet with you to refine the scope.  Your proposal **must** include:
 
 - A **description of the project** you'll be building with the objective described in non-technical language.
 - Hand-drawn or digitally created **wireframes** outlining the key views within your app.
@@ -106,11 +107,15 @@ While you must incorporate data from an API, you are **not required** to use any
 
 #### Instructor Support
 
-The purpose of this project is for you to show us and future employers what you're capable of, so we want as much of the project to be your own, independent work as possible. Therefore, each student will be given 5 (five) tokens to ask for help. Each token will give you 20 minutes of one-on-one consultation time with your Squad Lead. Tokens are redeemable during regular class time or as determined by your Squad Lead. Tokens cannot be transferred between students - there is no black market for tokens.
+The purpose of this project is for you to show us and future employers what you're capable of, so we want as much of the project to be your own, independent work as possible. 
+
+Therefore, each student will be given 5 (five) tokens to ask for help. Each token will give you 20 minutes of one-on-one consultation time with your Squad Lead. 
+
+Tokens are redeemable during office hours or as determined by your Squad Lead outside of those hours. Tokens cannot be transferred between students - there is no black market for tokens.
 
 **You should use this time to ask for constructive feedback or recommendations on an approach you're taking in your code or application's architecture.  Come prepared with specific questions.**
 
-An instructor will be assigned to each team and will check in with your team briefly every morning (whether via Slack or on Zoom). The purpose of these check-ins is NOT to discuss technical questions, but to answer questions about workflow and get a status checkin.
+An instructor will be assigned to each engineer and will check in with you briefly every morning (whether via Slack or on Zoom). The purpose of these check-ins is NOT to discuss technical questions, but to answer questions about workflow and get a status checkin.
 
 #### Github Issues
 
