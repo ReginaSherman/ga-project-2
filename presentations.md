@@ -9,12 +9,6 @@ One of the most effective ways to make yourself known to the developer world is 
 
 It can be hard to take those first steps into the world of creating content, and this is a great way to ease into it. 
 
-## Project 2 Gallery
-
-When your deliverable is ready, submit (or update) your link on the Project 2 [Gallery](https://git.generalassemb.ly/seir-622/project2-gallery/issues) with the links to your deployed application, your GH repo, and your video and/or article. 
-
-Later today, we will reconvene as a class and give everyone time to do a Gallery Walk and tour all the amazing Project 2 Applications and deliverables created by our classmates. Check out and get inspired by your classmates' work. You can leave emojis and comments on issues, like on this [sample issue](https://git.generalassemb.ly/seir-622/project2-gallery/issues/1). Spread the love! 😎
-
 ## Deliverable Instructions
 
 <details>
@@ -64,7 +58,7 @@ If you're feeling really fancy you can use iMovie -- also in your Applications f
 <details>
   <summary>Article/Blogpost Instructions</summary>
   
-Write the draft of your article in Google Docs or a text editor. Be sure to check for any spelling/grammar errors, and have a classmate, friend, or family member proofread your article before publishing! 
+Write the draft of your article in Google Docs or a text editor. Be sure to check for any spelling/grammar errors, and have a classmate, friend, or family member proofread your article before publishing! Consider including screenshots of your application and/or code snippets to increase engagement.
 
 When your draft is finalized, publish it to LinkedIn, Medium or Dev.to to share your thoughts with the world! Be sure to include the appropriate tags so that others in our field can find it. 
 </details> 
@@ -100,3 +94,9 @@ The questions listed below are a starting point of what could be covered in your
 - What features would you like to add?
 
 
+
+## Project 2 Gallery
+
+When your deliverable is ready, submit (or update) your link on the Project 2 [Gallery](https://git.generalassemb.ly/seir-622/project2-gallery/issues) with the links to your deployed application, your GH repo, and your video and/or article. 
+
+Later today, we will reconvene as a class and give everyone time to do a Gallery Walk and tour all the amazing Project 2 Applications and deliverables created by our classmates. Check out and get inspired by your classmates' work. You can leave emojis and comments on issues, like on this [sample issue](https://git.generalassemb.ly/seir-622/project2-gallery/issues/1). Spread the love! 😎
