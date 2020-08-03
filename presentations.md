@@ -68,7 +68,7 @@ When your draft is finalized, publish it to LinkedIn, Medium or Dev.to to share 
 
 ## Video/Article Key Points
 
-The questions listed below are a starting point of what could be covered in your deliverable. Feel free to improvise and add to the questions, and be sure to lend your own personality and flair to your video or article, in keeping with the personal brand you are building. 
+The questions listed below should be a place to start for what could be covered in your deliverable. Feel free to improvise and add to the topics, and be sure to lend your own personality and flair to your video or article, in keeping with the personal brand you are building. 
 
 ### Introduction
 
