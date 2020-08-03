@@ -7,7 +7,7 @@ For Project 2, we will be shaking things up a little bit! Students will have 90 
 
 One of the most effective ways to make yourself known to the developer world is by building your online presence. As discussed in Outcomes, sharing your experiences coding and building projects not only lends insight into your technical understanding and thought processes as a developer, but also shows potential employers your mastery of a certain tech stack! 
 
-It can be hard to take those first steps into the world of creating content, and this is a great way to ease into it. 
+It can be hard to take those first steps into the world of creating content, and this is a great way to ease into it. 😎 
 
 ## Deliverable Instructions
 
@@ -67,36 +67,34 @@ When your draft is finalized, publish it to LinkedIn, Medium or Dev.to to share 
 
 The questions listed below are a starting point of what could be covered in your deliverable. Feel free to improvise and add to the questions, and be sure to lend your own personality and flair to your video or article, in keeping with the personal brand you are building. 
 
-## Introduction
+### Introduction
 
 - What's your app called?
 - Why is it useful? What is your "pitch"?
 
-## The Planning Process
+### The Planning Process
 
 - How did you arrive at this idea?
 - What would you change about your planning process?
 
-## Demonstrating Your App
+### Demonstrating Your App
 
 - What are the integral features of your app?
 
-## Demonstrating Your Code
+### Demonstrating Your Code
 
 - What was the most difficult part?
 - What did you learn?
 - What are you most proud of?
 
-## Highs and Lows
+### Highs and Lows
 
 - What worked well?
 - What didn't?
 - What features would you like to add?
 
-
-
 ## Project 2 Gallery
 
-When your deliverable is ready, submit (or update) your link on the Project 2 [Gallery](https://git.generalassemb.ly/seir-622/project2-gallery/issues) with the links to your deployed application, your GH repo, and your video and/or article. 
+When your deliverable is ready, submit (or update) your issue on the Project 2 [Gallery](https://git.generalassemb.ly/seir-622/project2-gallery/issues) with the links to your deployed application, your GH repo, and your video and/or article. 
 
-Later today, we will reconvene as a class and give everyone time to do a Gallery Walk and tour all the amazing Project 2 Applications and deliverables created by our classmates. Check out and get inspired by your classmates' work. You can leave emojis and comments on issues, like on this [sample issue](https://git.generalassemb.ly/seir-622/project2-gallery/issues/1). Spread the love! 😎
+Later today, we will reconvene as a class and give everyone time to do a Gallery Walk and tour all the amazing Project 2 Applications and deliverables created by our classmates. Check out and get inspired by your classmates' work. You can leave emojis and comments on the issues, like on this [sample issue](https://git.generalassemb.ly/seir-622/project2-gallery/issues/1). Feel free to also leave feedback on the deliverable medium itself to show your support. Spread the GA love! ❤️ 
