@@ -53,6 +53,12 @@ QuickTime Player is in the Applications folder of your Mac. Notice that if you g
 
 If you're feeling really fancy you can use iMovie -- also in your Applications folder -- to swankify your video. However, having a snazzy-looking video isn't necessary!
 
+### Online Applications
+
+There are several online screen recording applications available, such as [Screencast](https://screencast-o-matic.com/). 
+
+Use whichever technology feels most comfortable and intuitive for you! 
+
 </details>
 
 <details>
