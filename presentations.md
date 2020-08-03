@@ -14,7 +14,7 @@ It can be hard to take those first steps into the world of creating content, and
 <details>
   <summary>Video Instructions</summary>
 
-Prepare a short screencast (3-5 minutes) demonstrating your project, which you will upload to YouTube/Vimeo. Here's an [example](https://www.youtube.com/watch?v=hrXoFgZTI64&t=12s) made by an SEIR alum! 
+Prepare a short screencast (3-5 minutes) demonstrating your project, which you will upload to YouTube/Vimeo. Here's an [example](https://www.youtube.com/watch?v=hrXoFgZTI64) made by an SEIR alum! 
 
 ### Warnings
 
