@@ -57,10 +57,13 @@ If you're feeling really fancy you can use iMovie -- also in your Applications f
 
 <details>
   <summary>Article/Blogpost Instructions</summary>
-  
-Write the draft of your article in Google Docs or a text editor. Be sure to check for any spelling/grammar errors, and have a classmate, friend, or family member proofread your article before publishing! Consider including screenshots of your application and/or code snippets to increase engagement.
 
-When your draft is finalized, publish it to LinkedIn, Medium or Dev.to to share your thoughts with the world! Be sure to include the appropriate tags so that others in our field can find it. 
+## Preparing an article/blogpost
+
+Write the draft of your article in Google Docs or a text editor. Be sure to check for any spelling/grammar errors, and have a classmate, friend, or family member proofread your article before publishing! Consider including screenshots of your application and/or code snippets to increase engagement. 
+
+When your draft is finalized, publish it to LinkedIn, Medium or Dev.to to share your thoughts with the world! Be sure to include lots of hashtags, such as #coding, #learninginpublic, #javascript, #react, etc. 
+
 </details> 
 
 ## Video/Article Key Points
