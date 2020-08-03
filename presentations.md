@@ -47,7 +47,7 @@ QuickTime Player is in the Applications folder of your Mac. Notice that if you g
 
 **Make sure you turn on the microphone before recording.**
 
-![Quicktime microphone](http://i.imgur.com/SBfletl.jpg)
+![Quicktime microphone](https://support.apple.com/library/content/dam/edam/applecare/images/en_US/macos/macos-high-sierra-quicktime-screen-recording.png)
 
 ### iMovie
 
