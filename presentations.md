@@ -24,7 +24,7 @@ Prepare a short screencast (3-5 minutes) demonstrating your project, which you w
 
 ### Requirements
 
-Your video should be uploaded to YouTube, Vimeo or a similar service. **Please do not  put it in a Github repository** since it will probably be at least 500MB.
+Your video should be uploaded to YouTube, Vimeo or a similar service. **Please do not  put it in a Github repository** since it will probably be at least 500MB. **LinkedIn** also supports [video hosting](https://www.linkedin.com/help/linkedin/answer/100983). 
 
 If you have a Gmail account, you already have a YouTube account. Just go to https://www.youtube.com/dashboard.
 
