@@ -70,7 +70,7 @@ We will determine whether or not you've met the requirements using the following
 
 ## Pre-Project Deliverable (Required)
 
-You must make a proposal and submit it to your squad leader by Monday 7/28 at noon EST.  Your squad leader will review and approve your proposal or meet with you to refine the scope.  Your proposal **must** include:
+You must make a proposal and submit it to your squad leader by Monday 10/26 at 10 am ET.  Your squad leader will review and approve your proposal or meet with you to refine the scope.  Your proposal **must** include:
 
 - A **description of the project** you'll be building with the objective described in non-technical language.
 - Hand-drawn or digitally created **wireframes** outlining the key views within your app.
