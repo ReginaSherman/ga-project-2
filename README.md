@@ -121,7 +121,7 @@ An instructor will be assigned to each engineer and will check in with you brief
 
 We strongly encourage you to file a Github issue in this repository prior to using your tokens. **Learning to communicate effectively about issues in your code essential skill as a developer.**
 
-[Open an Issue](../../issues/new) by clicking the Issues tab in this repository, and then click the green `New issue` button.  Give your issue a descriptive title, answer the questions in the issue body as best as you can, then click `Submit new issue`.
+[Open an Issue](../../issues/new?assignees=&labels=bug&template=project-troubleshooting-request.md&title=YOUR+NAME%2C+DESCRIPTION+OF+ISSUE) by clicking the Issues tab in this repository, and then click the green `New issue` button.  Give your issue a descriptive title, answer the questions in the issue body as best as you can, then click `Submit new issue`.
 
 Once you've submitted your issue, an instructor may:
 
