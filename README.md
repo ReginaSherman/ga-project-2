@@ -6,7 +6,7 @@ Like with project one, the Unit 2 project is a chance to build a project that yo
 
 You will be working individually for this project, but we will offer office hours and support via the issue queue throughout the project.
 
-For this project, you **must** submit your idea to your squad leader in the form of a [project proposal](https://git.generalassemb.ly/seir-622/project-2#pre-project-deliverable-required) by the date specified in your cohort's calendar.
+For this project, you **must** submit your idea to your squad leader in the form of a [project proposal](#pre-project-deliverable-required) by the date specified in your cohort's calendar.
 
 ## Requirements
 
