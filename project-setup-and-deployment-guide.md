@@ -172,14 +172,18 @@ heroku config:set REACT_APP_STOCK_API_KEY=4j4584fds930g5437d89
 You will **continue to push your code to Github** as normal using:
 
 ```bash
-git push origin master
+git push origin main
 ```
+>(If your main branch is called master, use `git push origin master`.) 
+
 
 In addition, when you wish to deploy or update the deployed version of your app, **you will also separately push to Heroku**. The command to deploy or update is:
 
 ```bash
-git push heroku master
+git push heroku main
 ```
+>(If your main branch is called master, use `git push heroku master`.) 
+
 
 Pushing to heroku will kick off all of the build processes needed to create and serve a production optimized version of your app.  This process can occasionally take up to 10 minutes to complete. Once it  is completed, you should see a message that reads:
 
@@ -188,7 +192,7 @@ remote: https://your-heroku-project-name.herokuapp.com/ deployed to Heroku
 remote:
 remote: Verifying deploy... done.
 To https://git.heroku.com/your-heroku-project-name.git
- * [new branch]      master -> master
+ * [new branch]      main -> main
 ```
 
 Use the URL that ends in `herokuapp.com` to visit your deployed app!
