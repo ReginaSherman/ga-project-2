@@ -109,7 +109,7 @@ While you must incorporate data from an API, you are **not required** to use any
 
 The purpose of this project is for you to show us and future employers what you're capable of, so we want as much of the project to be your own, independent work as possible. 
 
-Therefore, each student will be given 6 (six) tokens to ask for help. Each token will give you 20 minutes of one-on-one consultation time with your Squad Lead. 
+Therefore, each student will be given 6 (six) tokens to ask for help. Each token will give you 20 minutes of one-on-one consultation time with an instructor. 
 
 Tokens are redeemable during office hours or as determined by your Squad Lead outside of those hours. Tokens cannot be transferred between students - there is no black market for tokens.
 
