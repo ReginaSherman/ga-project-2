@@ -16,9 +16,9 @@ We'll be evaluating your projects against the following **hard** requirements:
 2. It must include data from a third-party API.
 3. It must use at least 4 separate components.
 4. It must be deployed to the Web.
-5. It uses flexbox or CSS grid for layout and not floats.
+5. It uses CSS Flexbox or Grid for layout strategies and is not dependent on floats, position or tables.
 6. Your project repository must adequately document your project and include a line to the deployed app.
-7. You have used git for version control throughout the project.
+7. You must use Git for version control throughout the project.
 
 Additionally, if your project contains any navigation features, you must use **React Router** for them.
 
@@ -66,18 +66,18 @@ We will determine whether or not you've met the requirements using the following
     - It should not depend solely on the browser's navigation buttons.
 
 > ### :triangular_flag_on_post: IMPORTANT:
-> To be clear,  **your app should be built in your own Github repository**. That means that you must create a new repo on your Github account. DO NOT build your app in this repository.
+> To be clear,  **your app should be built in your own Github repository**. That means that you must create a new repo on your Github account. DO NOT build your app in this repository or on GitHub Enterprise.
 
 ## Pre-Project Deliverable (Required)
 
-You must make a proposal and submit it to your squad leader by Monday 10/26 at 10 am ET.  Your squad leader will review and approve your proposal or meet with you to refine the scope.  Your proposal **must** include:
+You must make a proposal and submit it to your squad leader by the date specified on your cohort calendar.  Your squad leader will review and approve your proposal or meet with you to refine the scope.  Your proposal **must** include:
 
 - A **description of the project** you'll be building with the objective described in non-technical language.
 - Hand-drawn or digitally created **wireframes** outlining the key views within your app.
 - A collection of **user stories representing project MVP**.  You may include additional information about post-MVP plans for your application.
 - A link to the **API** you plan to use and an **example of the data response** you will use.
 - A **visual of your component hierarchy**. Think of the the critical states of your project and identify the data that each component will need. Optionally, indicate which components need state and which components will recieve props.
-- If you plan on incorporating a component library, include a link in your proposal.
+- If you plan on incorporating a component or any other third-party library, include a link in your proposal.
 
 > ### :triangular_flag_on_post: IMPORTANT:
 > **YOU ARE REQUIRED TO SHOW THAT YOU CAN RECEIVE THE DATA NEEDED TO SUPPORT YOUR PROPOSAL**. Try out your API in the browser or using [Postman](https://www.getpostman.com/) before you get too emotionally invested in your idea to make sure the API works the way you think it does.
@@ -86,7 +86,7 @@ Use the **[Project Worksheet](/project-worksheet.md)** in this repository to pre
 
 ## APIs
 
-Below are some collections of APIs you may consider.  None of these is a comprehensive list of all APIs that are available.  Also bear in mind that some APIs on these lists may no longer be available and others **may not be suitable** for this project because they are only available via http.
+Below are some collections of APIs you may consider.  None of these is a comprehensive list of all APIs that are available.  Also bear in mind that some APIs on these lists may no longer be available and others **may not be suitable** for this project because they are only available via http or have pay walls.
 
 While you must incorporate data from an API, you are **not required** to use any of the listed APIs.  They are provided solely as examples.
 
@@ -115,7 +115,7 @@ Tokens are redeemable during office hours or as determined by your Squad Lead ou
 
 **You should use this time to ask for constructive feedback or recommendations on an approach you're taking in your code or application's architecture.  Come prepared with specific questions.**
 
-An instructor will be assigned to each engineer and will check in with you briefly every morning (whether via Slack or on Zoom). The purpose of these check-ins is NOT to discuss technical questions, but to answer questions about workflow and get a status checkin.
+An instructor will be assigned to each engineer as their squad lead and will check in with you briefly every day (whether via Slack or on Zoom). The purpose of these check-ins is NOT to discuss technical questions, but to answer questions about workflow and get a status checkin.
 
 #### Github Issues
 
@@ -160,3 +160,5 @@ Review your progress daily.  Make sure to take time at the end of each day to re
 ## A Note on Plagiarism
 
 Take a moment to re-familiarize yourself with the [plagiarism policy](https://git.generalassemb.ly/seir-1118/Administrative/blob/master/plagiarism.md), specifically on using work you find online and on work you do with other students.
+
+As noted often throughout the course, following a tutorial is not coding, and any projects that do not constitute a majority of your own code will be considered plagiarized. When in doubt, consult an instructor. 
