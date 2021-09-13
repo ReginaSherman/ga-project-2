@@ -86,7 +86,7 @@ Use the **[Project Worksheet](/project-worksheet.md)** in this repository to pre
 
 ## APIs
 
-Below are some collections of APIs you may consider.  None of these is a comprehensive list of all APIs that are available.  Also bear in mind that some APIs on these lists may no longer be available and others **may not be suitable** for this project because they are only available via http or have pay walls.
+Below are some collections of APIs you may consider.  None of these is a comprehensive list of all APIs that are available.  Also bear in mind that some APIs on these lists may no longer be available and others **may not be suitable** for this project because they are only available via http (not https), or have pay walls, or don't have [CORS](https://developer.mozilla.org/en-US/docs/Web/HTTP/CORS) enabled.
 
 While you must incorporate data from an API, you are **not required** to use any of the listed APIs.  They are provided solely as examples.
 
@@ -94,6 +94,10 @@ While you must incorporate data from an API, you are **not required** to use any
 - [Public APIs | abhishekbanthia](https://github.com/abhishekbanthia/Public-APIs)
 - [Public APIs | n0shake](https://github.com/n0shake/Public-APIs)
 - [Public APIs | public-apis](https://github.com/public-apis/public-apis)
+
+### Choosing an API
+
+The most important choice you can make for a smooth project week is a solid, well-documented, free API. Use this [CodePen](https://codepen.io/esin87/pen/zYzdxbW?editors=0011) to make sure you can get back data from your API wtihout any CORS errors or paywall issues. 
 
 ## Getting Unstuck
 
